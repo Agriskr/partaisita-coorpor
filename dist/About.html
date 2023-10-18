@@ -35,8 +35,9 @@
     <link rel="icon" type="image/png" sizes="96x96" href="img/icons/favicon-96x96.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png" />
 
-    <link  rel="stylesheet" type="text/css" href="/css/style.css?_v=20230627192324"/>
-    <link  rel="stylesheet" type="text/css" href="/css/fonts.css?_v=20230627192324"/>
+    <link  rel="stylesheet" type="text/css" href="/css/style.css?_v=20231018103921"/>
+    <link  rel="stylesheet" type="text/css" href="/css/fonts.css?_v=20231018103921"/>
+    <link  rel="stylesheet" type="text/css" href="/css/app.css?_v=20231018103921"/>
    
     
     <meta name="msapplication-TileImage" content="./img/ms-icon-144x144.png">
@@ -57,7 +58,7 @@
   <div class="container-fluid ">
     <a class="navbar-brand " href="/index.html">
       <div class="navbar-brand__img">
-        <picture><source srcset="img/Cirkelis_balts_65.webp" type="image/webp"><img src="img/Cirkelis_balts_65.png" alt="cirkelis" /></picture>
+        <img src="img/Cirkelis_balts_65.png" alt="cirkelis" />
       </div>
       <div class="navbar-brand__text ">
         <span class="navbar-brand__text--first">
@@ -68,43 +69,34 @@
         </span>
       </div>
     </a>
-
-    <button class="navbar-toggler" id="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
-      aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+    <button class="navbar-toggler collapsed border-0" id="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
+      <div class="close-icon py-1">✖</div>
     </button>
-    
-    <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-      <div class="offcanvas-header">
-        <div class="offcanvas-title d-flex-column text-center flex-grow-1">
-          <span class="navbar-brand__text--first ps-4 pt-3">
-            Studentu korporācija
-          </span>
-          <span class="navbar-brand__text--second ps-4">
-            Latvia
-          </span>          
-        </div>
-        
-        <button type="button" id="offcanvas-close" class="btn-close btn-close-white mb-5" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
+    <!-- <button class="navbar-toggler" id="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
       
-      <div class="offcanvas-body">
-        <ul class="navbar-nav text-center justify-content-end flex-grow-1">
-          <li class="nav-item" >
-            <a class="nav-link" href="/index.html">Sākums</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/Gallery.html">Galerija</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/About.html">Par mums</a>
-          </li>
-          <li class="nav-item">
-            <a class=" nav-link" href="/Contact.html">Kontakti</a>
-          </li>
-        </ul>
-      </div>
+    </button> -->
+    <!-- <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav text-end justify-content-end flex-grow-1">
+        <li class=" nav-item">
+          <a class="nav-link active" href="/index.html">Sākums</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Gallery.html">Galerija</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/About.html">Par mums</a>
+        </li>
+        <li class="nav-item">
+          <a class=" nav-link" href="/Contact.html">Kontakti</a>
+        </li>
+      </ul>
     </div>
+  </div>
   </div>
 </nav>
 
@@ -119,7 +111,7 @@
 
     <section class="intro container py-5">
         <div class="row text-center d-block justify-content-center">
-            <picture><source srcset="img/Vapenis_uzlabots.webp" type="image/webp"><img src="img/Vapenis_uzlabots.jpg" alt="vapenis_1" class=" w-25 mb-5 "></picture>
+            <img src="img/Vapenis_uzlabots.jpg" alt="vapenis_1" class=" w-25 mb-5 ">
             <h2>
                 Korporācija Latvia ir mūža brālība, kas pastāv uz taisnības un goda prāta principiem.
             </h2>
@@ -134,25 +126,25 @@
                     </h4>
                 </div>
                 <div class="col-md-3 text-center">
-                    <picture><source srcset="img/icons/1_ikona.webp" type="image/webp"><img src="img/icons/1_ikona.png" alt="Latvijas_kontura" class="icon"></picture>
+                    <img src="img/icons/1_ikona.png" alt="Latvijas_kontura" class="icon">
                     <p>
                         Vienot akadēmiski izglītotus latviešus dzimtenē un ārpus tās patiesā brāļu mīlestībā
                     </p>
                 </div>
                 <div class="col-md-3 text-center">
-                    <picture><source srcset="img/icons/2_ikona.webp" type="image/webp"><img src="img/icons/2_ikona.png" alt="Latvijas_karogs" class="icon"></picture>
+                    <img src="img/icons/2_ikona.png" alt="Latvijas_karogs" class="icon">
                     <p>
                         Stāvēt pār latviešu tautas un Latvijas valsts brīvību un neatkarību
                     </p>
                 </div>
                 <div class="col-md-3 text-center">
-                    <picture><source srcset="img/icons/3_ikona.webp" type="image/webp"><img src="img/icons/3_ikona.png" alt="akademiska_cepure" class="icon"></picture>
+                    <img src="img/icons/3_ikona.png" alt="akademiska_cepure" class="icon">
                     <p>
                         Vairot latviešu tautas garīgos spēkus, lai vīru krietnums nestu mūsu tautai labākas dienas
                     </p>
                 </div>
                 <div class="col-md-3 text-center">
-                    <picture><source srcset="img/icons/4_ikona.webp" type="image/webp"><img src="img/icons/4_ikona.png" alt="tveriena_sadotas_rokas" class="icon"></picture>
+                    <img src="img/icons/4_ikona.png" alt="tveriena_sadotas_rokas" class="icon">
                     <p>
                         Aizstāvēt savas tautas, korporācijas un savu godu</p>
                 </div>
@@ -185,13 +177,13 @@
         </div>
     </section>
     
-    <section class="testemonials py-5 text-center bg-secondary">
+    <!-- <section class="testemonials py-5 text-center bg-secondary">
         <h4>Ko saka mūsu biedri?</h4>
         <div class="carousel carousel-dark slide mt-5" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="carousel-content">
-                        <picture><source srcset="/img/Rolands.webp" type="image/webp"><img src="/img/Rolands.jpg" alt="Testimonial Slider" class="carousel-img"></picture>
+                        <img src="/img/Rolands.jpg" alt="Testimonial Slider" class="carousel-img">
                         <div class="carousel-content_description text-left">
                             <h5>Rolands Krumbergs</h5>
                             <h6>PROGRAMMATŪRAS IZSTRĀDĀTĀJS, KONSULTANTS</h6>
@@ -206,7 +198,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="carousel-content">
-                        <picture><source srcset="/img/Rolands.webp" type="image/webp"><img src="/img/Rolands.jpg" alt="Testimonial Slider" class="carousel-img"></picture>
+                        <img src="/img/Rolands.jpg" alt="Testimonial Slider" class="carousel-img">
                         <div class="carousel-content__description text-left">
                             <h5>Rolands Krumbergs 2</h5>
                             <h6>Programmatūras izstrādātājs, konsultants</h6>
@@ -221,7 +213,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="carousel-content">
-                        <picture><source srcset="/img/Rolands.webp" type="image/webp"><img src="/img/Rolands.jpg" alt="Testimonial Slider" class="carousel-img"></picture>
+                        <img src="/img/Rolands.jpg" alt="Testimonial Slider" class="carousel-img">
                         <div class="carousel-content__description text-left">
                             <h5>Rolands Krumbergs 3</h5>
                             <h6>Programmatūras izstrādātājs, konsultants</h6>
@@ -245,7 +237,7 @@
                 
             </div>
         </div>
-    </section>
+    </section> -->
     <footer class="py-5 bg-dark text-white footer">
     <div class="container">
         <div class="row">
@@ -267,8 +259,8 @@
 </footer>
 
 
-<script src="/js/app.min.js?_v=20230627192324" defer></script>
-<!-- <script src="spotlight.bundle.js?_v=20230627192324" defer></script> -->
+<script src="/js/app.min.js?_v=20231018103921" defer></script>
+<!-- <script src="spotlight.bundle.js?_v=20231018103921" defer></script> -->
 
 </body>
 </html>

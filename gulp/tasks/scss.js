@@ -25,10 +25,10 @@ export const scss = () => {
             outputStyle: 'expanded'//kompilators, te izversta veida
         }))
         .pipe(groupCssMediaQueries())
-        .pipe( webpcss({
-            webpClass: ".webp",
-            noWebpClass: ".no-webp"
-        }))
+        // .pipe( webpcss({
+        //     webpClass: ".webp",
+        //     noWebpClass: ".no-webp"
+        // }))
         .pipe(autoprefixer({
             grid: true,
             overrideBrowserslist: ["last 3 versions"],

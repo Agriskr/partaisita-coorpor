@@ -1,0 +1,32 @@
+// bootstrap owerrides goes here
+$primary: #2e4aaa;
+$secondary: #f4f5f7;
+$dark: #373e52;
+$info: #979797;
+$blue: #162142;
+$white: #ffffff;
+
+$nav-link-font-size: 1rem;
+$nav-link-padding-y: 0;
+
+$navbar-padding-y: 0.5rem;
+$navbar-padding-x: 2.5rem;
+
+$navbar-brand-padding-y: 1rem;
+$navbar-brand-font-size: 1.5rem;
+$navbar-nav-link-padding-x: 0rem;
+
+$btn-padding-x: 1.5rem;
+$btn-padding-y: 0.8rem;
+$btn-border-radius: 10px;
+$btn-font-size: 0.9rem;
+
+$accordion-button-bg: $secondary;
+$accordion-button-active-bg: $secondary;
+
+$card-border-radius: 10px;
+$input-border-radius: 0;
+$input-line-height: 3;
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+//@import "_custom.scss";

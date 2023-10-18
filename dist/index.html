@@ -35,8 +35,9 @@
     <link rel="icon" type="image/png" sizes="96x96" href="img/icons/favicon-96x96.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png" />
 
-    <link  rel="stylesheet" type="text/css" href="/css/style.css?_v=20230627192324"/>
-    <link  rel="stylesheet" type="text/css" href="/css/fonts.css?_v=20230627192324"/>
+    <link  rel="stylesheet" type="text/css" href="/css/style.css?_v=20231018103921"/>
+    <link  rel="stylesheet" type="text/css" href="/css/fonts.css?_v=20231018103921"/>
+    <link  rel="stylesheet" type="text/css" href="/css/app.css?_v=20231018103921"/>
    
     
     <meta name="msapplication-TileImage" content="./img/ms-icon-144x144.png">
@@ -57,7 +58,7 @@
   <div class="container-fluid ">
     <a class="navbar-brand " href="/index.html">
       <div class="navbar-brand__img">
-        <picture><source srcset="img/Cirkelis_balts_65.webp" type="image/webp"><img src="img/Cirkelis_balts_65.png" alt="cirkelis" /></picture>
+        <img src="img/Cirkelis_balts_65.png" alt="cirkelis" />
       </div>
       <div class="navbar-brand__text ">
         <span class="navbar-brand__text--first">
@@ -68,43 +69,34 @@
         </span>
       </div>
     </a>
-
-    <button class="navbar-toggler" id="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
-      aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+    <button class="navbar-toggler collapsed border-0" id="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
+      <div class="close-icon py-1">✖</div>
     </button>
-    
-    <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-      <div class="offcanvas-header">
-        <div class="offcanvas-title d-flex-column text-center flex-grow-1">
-          <span class="navbar-brand__text--first ps-4 pt-3">
-            Studentu korporācija
-          </span>
-          <span class="navbar-brand__text--second ps-4">
-            Latvia
-          </span>          
-        </div>
-        
-        <button type="button" id="offcanvas-close" class="btn-close btn-close-white mb-5" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
+    <!-- <button class="navbar-toggler" id="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
       
-      <div class="offcanvas-body">
-        <ul class="navbar-nav text-center justify-content-end flex-grow-1">
-          <li class="nav-item" >
-            <a class="nav-link" href="/index.html">Sākums</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/Gallery.html">Galerija</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/About.html">Par mums</a>
-          </li>
-          <li class="nav-item">
-            <a class=" nav-link" href="/Contact.html">Kontakti</a>
-          </li>
-        </ul>
-      </div>
+    </button> -->
+    <!-- <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav text-end justify-content-end flex-grow-1">
+        <li class=" nav-item">
+          <a class="nav-link active" href="/index.html">Sākums</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Gallery.html">Galerija</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/About.html">Par mums</a>
+        </li>
+        <li class="nav-item">
+          <a class=" nav-link" href="/Contact.html">Kontakti</a>
+        </li>
+      </ul>
     </div>
+  </div>
   </div>
 </nav>
 
@@ -132,25 +124,25 @@
                     </h4>
                 </div>
                 <div class="col-md-3 text-center">
-                    <picture><source srcset="img/icons/1_ikona.webp" type="image/webp"><img src="img/icons/1_ikona.png" alt="Latvijas_kontura" class="icon"></picture>
+                    <img src="img/icons/1_ikona.png" alt="Latvijas_kontura" class="icon">
                     <p>
                         Vienot akadēmiski izglītotus latviešus dzimtenē un ārpus tās patiesā brāļu mīlestībā
                     </p>
                 </div>
                 <div class="col-md-3 text-center">
-                    <picture><source srcset="img/icons/2_ikona.webp" type="image/webp"><img src="img/icons/2_ikona.png" alt="Latvijas_karogs" class="icon"></picture>
+                    <img src="img/icons/2_ikona.png" alt="Latvijas_karogs" class="icon">
                     <p>
                         Stāvēt pār latviešu tautas un Latvijas valsts brīvību un neatkarību
                     </p>
                 </div>
                 <div class="col-md-3 text-center">
-                    <picture><source srcset="img/icons/3_ikona.webp" type="image/webp"><img src="img/icons/3_ikona.png" alt="akademiska_cepure" class="icon"></picture>
+                    <img src="img/icons/3_ikona.png" alt="akademiska_cepure" class="icon">
                     <p>
                         Vairot latviešu tautas garīgos spēkus, lai vīru krietnums nestu mūsu tautai labākas dienas
                     </p>
                 </div>
                 <div class="col-md-3 text-center">
-                    <picture><source srcset="img/icons/4_ikona.webp" type="image/webp"><img src="img/icons/4_ikona.png" alt="tveriena_sadotas_rokas" class="icon"></picture>
+                    <img src="img/icons/4_ikona.png" alt="tveriena_sadotas_rokas" class="icon">
                     <p>
                         Aizstāvēt savas tautas, korporācijas un savu godu</p>
                 </div>
@@ -168,7 +160,16 @@
 
             <div class="row">
                 <div class="col-md-6 mb-3 px-2">
-                    <picture><source srcset="img/atklasana/Atklasanas_svetki_540x303.webp" type="image/webp"><img src="img/atklasana/Atklasanas_svetki_540x303.jpg" class="d-block img-fluid" alt="iepazisanas_vakari"></picture>
+                    <!-- <img src="img/atklasana/Atklasanas_svetki_540x303.jpg" class="d-block img-fluid rounded" alt="iepazisanas_vakari"> -->
+                    <picture>
+                        <source media="(min-width: 1400px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/630x354/Atklasanas_svetki_16_9.jpg" />
+                        <source media="(min-width: 1200px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/540x304/Atklasanas_svetki_16_9.jpg" />
+                        <source media="(min-width: 992px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/450x253/Atklasanas_svetki_16_9.jpg" />
+                        <source media="(min-width: 768px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/330x186/Atklasanas_svetki_16_9.jpg" />
+                        <source media="(min-width: 576px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/540x304/Atklasanas_svetki_16_9.jpg" />
+                        <source media="(max-width: 576px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/450x253/Atklasanas_svetki_16_9.jpg" />
+                        <img class="rounded img-fluid" loading="lazy" decoding="async" src="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/630x354/Atklasanas_svetki_16_9.jpg" alt="iepazisanas_vakari">
+                    </picture>
                     <div class="mt-2">
                         <h5>Viesu vakari</h5>
                         <p>
@@ -179,7 +180,16 @@
                 </div>
 
                 <div class="col-md-6 mb-3 px-2">
-                    <picture><source srcset="img/literarais/literarais_540x303.webp" type="image/webp"><img src="img/literarais/literarais_540x303.jpg" class="d-block img-fluid" alt="literarais_vakars"></picture>
+                    <!-- <img src="img/literarais/literarais_540x303.jpg" class="d-block img-fluid rounded" alt="literarais_vakars"> -->
+                    <picture>
+                        <source media="(min-width: 1400px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/630x354/Literarais_2_16_9.jpg" />
+                        <source media="(min-width: 1200px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/540x304/Literarais_2_16_9.jpg" />
+                        <source media="(min-width: 992px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/450x253/Literarais_2_16_9.jpg" />
+                        <source media="(min-width: 768px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/330x186/Literarais_2_16_9.jpg" />
+                        <source media="(min-width: 576px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/540x304/Literarais_2_16_9.jpg" />
+                        <source media="(max-width: 576px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/450x253/Literarais_2_16_9.jpg" />
+                        <img class="rounded img-fluid" loading="lazy" decoding="async" src="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/630x354/Literarais_2_16_9.jpg" alt="literarais_vakars">
+                    </picture> 
                     <div class="mt-2">
                         <h5>Literārie vakari</h5>
                         <p>
@@ -190,7 +200,16 @@
                 </div>
 
                 <div class="col-md-6 mb-3 ">
-                    <picture><source srcset="img/paukosanas/Paukosanas_540x303.webp" type="image/webp"><img src="img/paukosanas/Paukosanas_540x303.jpg" class="d-block img-fluid" alt="paukosanas_vakari"></picture>
+                    <!-- <img src="img/paukosanas/Paukosanas_540x303.jpg" class="d-block img-fluid rounded" alt="paukosanas_vakari"> -->
+                    <picture>
+                        <source media="(min-width: 1400px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/630x354/Paukosanas_6_16_9.jpg" />
+                        <source media="(min-width: 1200px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/540x304/Paukosanas_6_16_9.jpg" />
+                        <source media="(min-width: 992px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/450x253/Paukosanas_6_16_9.jpg" />
+                        <source media="(min-width: 768px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/330x186/Paukosanas_6_16_9.jpg" />
+                        <source media="(min-width: 576px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/540x304/Paukosanas_6_16_9.jpg" />
+                        <source media="(max-width: 576px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/450x253/Paukosanas_6_16_9.jpg" />
+                        <img class="rounded img-fluid" loading="lazy" decoding="async" src="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/630x354/Paukosanas_6_16_9.jpg" alt="paukosanas_vakari">
+                    </picture> 
                     <div class="mt-2">
                         <h5>Paukošanās</h5>
                         <p>
@@ -201,7 +220,16 @@
                 </div>
 
                 <div class="col-md-6 mb-3 ">
-                    <picture><source srcset="img/komerss/Komerss_540x303.webp" type="image/webp"><img src="img/komerss/Komerss_540x303.jpg" class="d-block img-fluid" alt="alus_vakars"></picture>
+                    <!-- <img src="img/komerss/Komerss_540x303.jpg" class="d-block img-fluid rounded" alt="alus_vakars"> -->
+                    <picture>
+                        <source media="(min-width: 1400px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/630x354/Komerss_1_16_9.jpg" />
+                        <source media="(min-width: 1200px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/540x304/Komerss_1_16_9.jpg" />
+                        <source media="(min-width: 992px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/450x253/Komerss_1_16_9.jpg" />
+                        <source media="(min-width: 768px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/330x186/Komerss_1_16_9.jpg" />
+                        <source media="(min-width: 576px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/540x304/Komerss_1_16_9.jpg" />
+                        <source media="(max-width: 576px)" type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/450x253/Komerss_1_16_9.jpg" />
+                        <img class="rounded img-fluid" loading="lazy" decoding="async" src="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/630x354/Komerss_1_16_9.jpg" alt="komerss">
+                    </picture> 
                     <div class="mt-2">
                         <h5>Citi sadzīves pasākumi</h5>
                         <p>
@@ -355,8 +383,8 @@
 </footer>
 
 
-<script src="/js/app.min.js?_v=20230627192324" defer></script>
-<!-- <script src="spotlight.bundle.js?_v=20230627192324" defer></script> -->
+<script src="/js/app.min.js?_v=20231018103921" defer></script>
+<!-- <script src="spotlight.bundle.js?_v=20231018103921" defer></script> -->
 
 </body>
 </html>

@@ -35,8 +35,9 @@
     <link rel="icon" type="image/png" sizes="96x96" href="img/icons/favicon-96x96.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png" />
 
-    <link  rel="stylesheet" type="text/css" href="/css/style.css?_v=20230627192324"/>
-    <link  rel="stylesheet" type="text/css" href="/css/fonts.css?_v=20230627192324"/>
+    <link  rel="stylesheet" type="text/css" href="/css/style.css?_v=20231018103921"/>
+    <link  rel="stylesheet" type="text/css" href="/css/fonts.css?_v=20231018103921"/>
+    <link  rel="stylesheet" type="text/css" href="/css/app.css?_v=20231018103921"/>
    
     
     <meta name="msapplication-TileImage" content="./img/ms-icon-144x144.png">
@@ -57,7 +58,7 @@
   <div class="container-fluid ">
     <a class="navbar-brand " href="/index.html">
       <div class="navbar-brand__img">
-        <picture><source srcset="img/Cirkelis_balts_65.webp" type="image/webp"><img src="img/Cirkelis_balts_65.png" alt="cirkelis" /></picture>
+        <img src="img/Cirkelis_balts_65.png" alt="cirkelis" />
       </div>
       <div class="navbar-brand__text ">
         <span class="navbar-brand__text--first">
@@ -68,43 +69,34 @@
         </span>
       </div>
     </a>
-
-    <button class="navbar-toggler" id="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
-      aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+    <button class="navbar-toggler collapsed border-0" id="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
+      <div class="close-icon py-1">✖</div>
     </button>
-    
-    <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-      <div class="offcanvas-header">
-        <div class="offcanvas-title d-flex-column text-center flex-grow-1">
-          <span class="navbar-brand__text--first ps-4 pt-3">
-            Studentu korporācija
-          </span>
-          <span class="navbar-brand__text--second ps-4">
-            Latvia
-          </span>          
-        </div>
-        
-        <button type="button" id="offcanvas-close" class="btn-close btn-close-white mb-5" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
+    <!-- <button class="navbar-toggler" id="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
       
-      <div class="offcanvas-body">
-        <ul class="navbar-nav text-center justify-content-end flex-grow-1">
-          <li class="nav-item" >
-            <a class="nav-link" href="/index.html">Sākums</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/Gallery.html">Galerija</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/About.html">Par mums</a>
-          </li>
-          <li class="nav-item">
-            <a class=" nav-link" href="/Contact.html">Kontakti</a>
-          </li>
-        </ul>
-      </div>
+    </button> -->
+    <!-- <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav text-end justify-content-end flex-grow-1">
+        <li class=" nav-item">
+          <a class="nav-link active" href="/index.html">Sākums</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Gallery.html">Galerija</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/About.html">Par mums</a>
+        </li>
+        <li class="nav-item">
+          <a class=" nav-link" href="/Contact.html">Kontakti</a>
+        </li>
+      </ul>
     </div>
+  </div>
   </div>
 </nav>
 
@@ -121,99 +113,130 @@
     <section class="gallery-section py-5">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 col-md-4 mb-5">
-                    <div class="card ">                       
-                      <a class="spotlight" data-gall="myGallery"  href="img/18_novembris.jpg" >
-                        <picture><source srcset="img/18_novembris_325.webp" type="image/webp"><img src="img/18_novembris_325.jpg" class="card-img-top" alt="18_nov_gajiens"/></picture></a>
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                18. novembra gājiens
-                            </h5>
-                            <p class="card-text">
-                                Katru gadu 18. novembrī atzīmējam valsts svētkus piemiņas
-                                gājienā no Latvijas Universitātes līdz Brāļu kapiem
-                            </p>
-                        </div>
-                    </div>
+                <div class="col-md-12 py-4 text-center">
+                    <h4>
+                        Galerija
+                    </h4>
                 </div>
-                <div class="col-sm-6 col-md-4 mb-5">
-                    <div class="card">
-                        <a class="spotlight" data-gall="myGallery"  href="img/Jubilejas_svetki_2048.jpg" >
-                            <picture><source srcset="img/Jubilejas_svetki_325.webp" type="image/webp"><img src="img/Jubilejas_svetki_325.jpg" class="card-img-top" alt="jubilejas"/></picture></a>                        
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                Jubilejas svētki
-                            </h5>
-                            <p class="card-text">
-                                Katru gadu atzīmējām studentu korporācijas Latvia dibināšanu
-                                1917. gadā
-                            </p>
-                        </div>
+            </div>
+
+            <div class="spotlight-group">
+                <div class="row">
+                    <div class="col-md-6 col-xl-4 pb-3">
+                        <a class="spotlight" href="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/1400x788/18_novembris_1_16_9.jpg">
+                            <picture>
+                                <source type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/1400x788/18_novembris_1_16_9.jpg">
+                                <img src="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/gallery/576x324/18_novembris_1_16_9.jpg" alt="alus_vakars" class="img rounded w-100" />
+                            </picture>
+                        </a>
                     </div>
-                </div>
-                <div class="col-sm-6 col-md-4 mb-5">
-                    <div class="card">
-                        <a class="spotlight" data-gall="myGallery"  href="img/Paukosanas_turnirs.jpg" >
-                            <picture><source srcset="img/Paukosanas_turnirs_325.webp" type="image/webp"><img src="img/Paukosanas_turnirs_325.jpg" class="card-img-top " alt="paukosanas"/></picture></a>
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                Pauku turnīri
-                            </h5>
-                            <p class="card-text">
-                                Katru gadu aktīvi piedalāmies gan starp korporācijām
-                                organizētos, gan studentu korporācijā Latvia iekšēji
-                                organizētos paukošanas turnīros
-                            </p>
-                        </div>
+                    <div class="col-md-6 col-xl-4 pb-3">
+                        <a class="spotlight" href="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/18_novembris_2_16_9.jpg">
+                            <picture>
+                                <source type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/18_novembris_2_16_9.jpg">
+                                <img src="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/576x324/18_novembris_2_16_9.jpg" alt="alus_vakars" class="img rounded w-100" />
+                            </picture>
+                        </a>
                     </div>
-                </div>
-                <div class="col-sm-6 col-md-4 mb-5">
-                    <div class="card">                        
-                        <a class="spotlight" data-gall="myGallery" href="img/Literarais_vakars_1920.jpg">
-                            <picture><source srcset="img/Literarais_vakars_325.webp" type="image/webp"><img src="img/Literarais_vakars_325.jpg" alt="literarais_vakars" class="card-img-top" /></picture></a>                       
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                Literārie vakari
-                            </h5>
-                            <p class="card-text">
-                                Regulāri organizējam literāros vakarus par izglītojošiem
-                                un interesantiem tematiem.
-                            </p>
-                        </div>
+                    <div class="col-md-6 col-xl-4 pb-3">
+                        <a class="spotlight" href="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Dejas_1_16_9.jpg">
+                            <picture>
+                                <source type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Dejas_1_16_9.jpg">
+                                <img src="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/576x324/Dejas_1_16_9.jpg" alt="alus_vakars" class="img rounded w-100" />
+                            </picture>
+                        </a>
                     </div>
-                </div>
-                <div class="col-sm-6 col-md-4 mb-5">
-                    <div class="card">                        
-                        <a class="spotlight" data-gall="myGallery" href="img/Alus_vakars.jpg">
-                            <picture><source srcset="img/Alus_vakars_325.webp" type="image/webp"><img src="img/Alus_vakars_325.jpg" alt="alus_vakars" class="card-img-top" /></picture></a>                       
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                Dziesmu un alus vakari
-                            </h5>
-                            <p class="card-text">
-                                Kopā pavadām laiku dziedot dziesmas, baudot sarunas un iepazīstot
-                                cits citu.
-                            </p>
-                        </div>
+                    <div class="col-md-6 col-xl-4 pb-3">
+                        <a class="spotlight" href="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Dejas_2_16_9.jpg">
+                            <picture>
+                                <source type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Dejas_2_16_9.jpg">
+                                <img src="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/576x324/Dejas_2_16_9.jpg" alt="alus_vakars" class="img rounded w-100" />
+                            </picture>
+                        </a>
                     </div>
-                </div>
-                <div class="col-sm-6 col-md-4 mb-5">
-                    <div class="card">                        
-                        <a class="spotlight" data-gall="myGallery" href="img/Literarais_vakars_1920.jpg">
-                            <picture><source srcset="img/Literarais_vakars_325.webp" type="image/webp"><img src="img/Literarais_vakars_325.jpg" alt="literarais_vakars" class="card-img-top" /></picture></a>                       
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                Literārie vakari
-                            </h5>
-                            <p class="card-text">
-                                Regulāri organizējam literāros vakarus par izglītojošiem
-                                un interesantiem tematiem.
-                            </p>
-                        </div>
+                    <div class="col-md-6 col-xl-4 pb-3">
+                        <a class="spotlight" href="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Komerss_1_16_9.jpg">
+                            <picture>
+                                <source type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Komerss_1_16_9.jpg">
+                                <img src="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/576x324/Komerss_1_16_9.jpg" alt="alus_vakars" class="img rounded w-100" />
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-xl-4 pb-3">
+                        <a class="spotlight" href="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Komerss_2_16_9.jpg">
+                            <picture>
+                                <source type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Komerss_2_16_9.jpg">
+                                <img src="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/576x324/Komerss_2_16_9.jpg" alt="alus_vakars" class="img rounded w-100" />
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-xl-4 pb-3">
+                        <a class="spotlight" href="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Literarais_1_16_9.jpg">
+                            <picture>
+                                <source type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Literarais_1_16_9.jpg">
+                                <img src="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/576x324/Literarais_1_16_9.jpg" alt="alus_vakars" class="img rounded w-100" />
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-xl-4 pb-3">
+                        <a class="spotlight" href="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Literarais_2_16_9.jpg">
+                            <picture>
+                                <source type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Literarais_2_16_9.jpg">
+                                <img src="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/576x324/Literarais_2_16_9.jpg" alt="alus_vakars" class="img rounded w-100" />
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-xl-4 pb-3">
+                        <a class="spotlight" href="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Paukosanas_1_16_9.jpg">
+                            <picture>
+                                <source type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Paukosanas_1_16_9.jpg">
+                                <img src="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/576x324/Paukosanas_1_16_9.jpg" alt="alus_vakars" class="img rounded w-100" />
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-xl-4 pb-3">
+                        <a class="spotlight" href="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Paukosanas_2_16_9.jpg">
+                            <picture>
+                                <source type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Paukosanas_2_16_9.jpg">
+                                <img src="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/576x324/Paukosanas_2_16_9.jpg" alt="alus_vakars" class="img rounded w-100" />
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-xl-4 pb-3">
+                        <a class="spotlight" href="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Paukosanas_3_16_9.jpg">
+                            <picture>
+                                <source type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Paukosanas_3_16_9.jpg">
+                                <img src="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/576x324/Paukosanas_3_16_9.jpg" alt="alus_vakars" class="img rounded w-100" />
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-xl-4 pb-3">
+                        <a class="spotlight" href="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Paukosanas_4_16_9.jpg">
+                            <picture>
+                                <source type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Paukosanas_4_16_9.jpg">
+                                <img src="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/576x324/Paukosanas_4_16_9.jpg" alt="alus_vakars" class="img rounded w-100" />
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-xl-4 pb-3">
+                        <a class="spotlight" href="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Paukosanas_5_16_9.jpg">
+                            <picture>
+                                <source type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Paukosanas_5_16_9.jpg">
+                                <img src="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/576x324/Paukosanas_5_16_9.jpg" alt="alus_vakars" class="img rounded w-100" />
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-xl-4 pb-3">
+                        <a class="spotlight" href="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Paukosanas_6_16_9.jpg">
+                            <picture>
+                                <source type="image/jpeg" srcset="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/1400x788/Paukosanas_6_16_9.jpg">
+                                <img src="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/gallery/576x324/Paukosanas_6_16_9.jpg" alt="alus_vakars" class="img rounded w-100" />
+                            </picture>
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
     </section>
     <footer class="py-5 bg-dark text-white footer">
     <div class="container">
@@ -236,8 +259,8 @@
 </footer>
 
 
-<script src="/js/app.min.js?_v=20230627192324" defer></script>
-<!-- <script src="spotlight.bundle.js?_v=20230627192324" defer></script> -->
+<script src="/js/app.min.js?_v=20231018103921" defer></script>
+<!-- <script src="spotlight.bundle.js?_v=20231018103921" defer></script> -->
 
 </body>
 </html>

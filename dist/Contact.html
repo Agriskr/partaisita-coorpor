@@ -35,8 +35,9 @@
     <link rel="icon" type="image/png" sizes="96x96" href="img/icons/favicon-96x96.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png" />
 
-    <link  rel="stylesheet" type="text/css" href="/css/style.css?_v=20230627192324"/>
-    <link  rel="stylesheet" type="text/css" href="/css/fonts.css?_v=20230627192324"/>
+    <link  rel="stylesheet" type="text/css" href="/css/style.css?_v=20231018103921"/>
+    <link  rel="stylesheet" type="text/css" href="/css/fonts.css?_v=20231018103921"/>
+    <link  rel="stylesheet" type="text/css" href="/css/app.css?_v=20231018103921"/>
    
     
     <meta name="msapplication-TileImage" content="./img/ms-icon-144x144.png">
@@ -57,7 +58,7 @@
   <div class="container-fluid ">
     <a class="navbar-brand " href="/index.html">
       <div class="navbar-brand__img">
-        <picture><source srcset="img/Cirkelis_balts_65.webp" type="image/webp"><img src="img/Cirkelis_balts_65.png" alt="cirkelis" /></picture>
+        <img src="img/Cirkelis_balts_65.png" alt="cirkelis" />
       </div>
       <div class="navbar-brand__text ">
         <span class="navbar-brand__text--first">
@@ -68,43 +69,34 @@
         </span>
       </div>
     </a>
-
-    <button class="navbar-toggler" id="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
-      aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+    <button class="navbar-toggler collapsed border-0" id="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
+      <div class="close-icon py-1">✖</div>
     </button>
-    
-    <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-      <div class="offcanvas-header">
-        <div class="offcanvas-title d-flex-column text-center flex-grow-1">
-          <span class="navbar-brand__text--first ps-4 pt-3">
-            Studentu korporācija
-          </span>
-          <span class="navbar-brand__text--second ps-4">
-            Latvia
-          </span>          
-        </div>
-        
-        <button type="button" id="offcanvas-close" class="btn-close btn-close-white mb-5" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
+    <!-- <button class="navbar-toggler" id="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
       
-      <div class="offcanvas-body">
-        <ul class="navbar-nav text-center justify-content-end flex-grow-1">
-          <li class="nav-item" >
-            <a class="nav-link" href="/index.html">Sākums</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/Gallery.html">Galerija</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/About.html">Par mums</a>
-          </li>
-          <li class="nav-item">
-            <a class=" nav-link" href="/Contact.html">Kontakti</a>
-          </li>
-        </ul>
-      </div>
+    </button> -->
+    <!-- <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav text-end justify-content-end flex-grow-1">
+        <li class=" nav-item">
+          <a class="nav-link active" href="/index.html">Sākums</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Gallery.html">Galerija</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/About.html">Par mums</a>
+        </li>
+        <li class="nav-item">
+          <a class=" nav-link" href="/Contact.html">Kontakti</a>
+        </li>
+      </ul>
     </div>
+  </div>
   </div>
 </nav>
 
@@ -124,19 +116,19 @@
                     <h4>Studentu korporācija Latvia</h4>
                 </div>
                 <div class="col-md-4 text-center py-3">
-                    <picture><source srcset="img/icons/5_ikona.webp" type="image/webp"><img src="img/icons/5_ikona.png" alt="navigacijas_atzime" class="icon" /></picture>
+                    <img src="img/icons/5_ikona.png" alt="navigacijas_atzime" class="icon" />
                     <p>
                         Šarlotes iela 3, Rīga, LV-1001
                     </p>
                 </div>
                 <div class="col-md-4 text-center py-3">
-                    <picture><source srcset="img/icons/7_ikona.webp" type="image/webp"><img src="img/icons/7_ikona.png" alt="aploksne" class="icon" /></picture>
+                    <img src="img/icons/7_ikona.png" alt="aploksne" class="icon" />
                     <p>
                         info@latvus.lv
                     </p>
                 </div>
                 <div class="col-md-4 text-center py-3">
-                    <picture><source srcset="img/icons/6_ikona.webp" type="image/webp"><img src="img/icons/6_ikona.png" alt="telefona_klausule" class="icon" /></picture>
+                    <img src="img/icons/6_ikona.png" alt="telefona_klausule" class="icon" />
                     <p>
                         +371 28349003
                     </p>
@@ -154,22 +146,31 @@
             </div>
             <div class="row py-4">
                 <div class="col-sm-6 col-md-4 pb-5 text-center">
-                    <picture><source srcset="img/Einars.webp" type="image/webp"><img src="img/Einars.png" alt="avatars" class="img-fluid people-image" /></picture>
-                    <p class="people-title">t/l I šarž! taut!</p>
-                    <h6 class="people-name">Einārs Vimba Zivtiņš</h6>
-                    <p class="people-info">prezidijs@latvus.lv</p>
+                    <picture>
+                        <img src="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/prezidijs/100x100/Deivids_1_1.jpg"
+                            alt="avatars" class="img-fluid rounded-circle people-image" />
+                    </picture>
+                    <p class="mb-1 mt-3">t/l I šarž!</p>
+                    <h6 class="">taut! Deivids Agriņš</h6>
+                    <p class="">prezidijs@latvus.lv</p>
                 </div>
                 <div class="col-sm-6 col-md-4 pb-5 text-center">
-                    <picture><source srcset="img/Einars.webp" type="image/webp"><img src="img/Einars.png" alt="avatars" class="img-fluid people-image" /></picture>
-                    <p class="people-title">t/l I šarž! taut!</p>
-                    <h6 class="people-name">Einārs Vimba Zivtiņš</h6>
-                    <p class="people-info">prezidijs@latvus.lv</p>
+                    <picture>
+                        <img src="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/prezidijs/100x100/Martins_1_1.jpg"
+                            alt="avatars" class="img-fluid rounded-circle people-image" />
+                    </picture>
+                    <p class="mb-1 mt-3">t/l II šarž!</p>
+                    <h6 class="">fil! Mārtiņš Makreckis</h6>
+                    <p class="">prezidijs@latvus.lv</p>
                 </div>
                 <div class="col-sm-6 col-md-4 pb-5 text-center">
-                    <picture><source srcset="img/Einars.webp" type="image/webp"><img src="img/Einars.png" alt="avatars" class="img-fluid people-image" /></picture>
-                    <p class="people-title">t/l I šarž! taut!</p>
-                    <h6 class="people-name">Einārs Vimba Zivtiņš</h6>
-                    <p class="people-info">prezidijs@latvus.lv</p>
+                    <picture>
+                        <img src="https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net/images/prezidijs/person-fill.svg"
+                            alt="avatars" class="img-fluid rounded-circle people-image" />
+                    </picture>
+                    <p class="mb-1 mt-3">t/l III šarž!</p>
+                    <h6 class="">taut! Rūdolfs Dāvis Sīmanis</h6>
+                    <p class="">prezidijs@latvus.lv</p>
                 </div>
             </div>
         </div>
@@ -236,8 +237,8 @@
 </footer>
 
 
-<script src="/js/app.min.js?_v=20230627192324" defer></script>
-<!-- <script src="spotlight.bundle.js?_v=20230627192324" defer></script> -->
+<script src="/js/app.min.js?_v=20231018103921" defer></script>
+<!-- <script src="spotlight.bundle.js?_v=20231018103921" defer></script> -->
 
 </body>
 </html>

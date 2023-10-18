@@ -1,0 +1,253 @@
+//@media (orientation: landscape){
+    $hero-background-url-landscape: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/576x324/Vapenis_16_9.jpg');
+    $gallery-section-background-url-landscape: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/576x324/Svetku_akts_16_9.jpg');
+    $about-section-background-url-landscape: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/576x324/Paukosanas_16_9.jpg');
+    $contact-section-background-url-landscape: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/576x324/Atklasanas_svetki_16_9.jpg');
+    
+    //@media (orientation: portrait) {
+    $hero-background-url-portrait: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/480x853/Vapenis_9_16.jpg');
+    $gallery-section-background-url-portrait: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/480x853/Svetku_akts_9_16.jpg');
+    $about-section-background-url-portrait: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/480x853/Paukosanas_9_16.jpg');
+    $contact-section-background-url-portrait: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/480x853/Atklasanas_svetki_9_16.jpg');
+    
+    //@media (min-width: 360px) and (orientation: portrait){
+    $hero-background-url-360px: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/480x853/Vapenis_9_16.jpg');
+    $gallery-section-background-url-360px: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/480x853/Svetku_akts_9_16.jpg');
+    $about-section-background-url-360px: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/480x853/Paukosanas_9_16.jpg');
+    $contact-section-background-url-360px: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/480x853/Atklasanas_svetki_9_16.jpg');
+    
+    //@media (min-width: 420px) and (orientation: portrait){
+    $hero-background-url-420px: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/576x1024/Vapenis_9_16.jpg');
+    $gallery-section-background-url-420px: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/576x1024/Svetku_akts_9_16.jpg');
+    $about-section-background-url-420px: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/576x1024/Paukosanas_9_16.jpg');
+    $contact-section-background-url-420px: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/576x1024/Atklasanas_svetki_9_16.jpg');
+    
+    //@media (min-width: 576px) and (orientation: portrait){
+    $hero-background-url-576px: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/768x1365/Vapenis_9_16.jpg');
+    $gallery-section-background-url-576px: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/768x1365/Svetku_akts_9_16.jpg');
+    $about-section-background-url-576px: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/768x1365/Paukosanas_9_16.jpg');
+    $contact-section-background-url-576px: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/768x1365/Atklasanas_svetki_9_16.jpg');
+    
+    //@media (min-width: 576px) and (orientation: landscape){
+    $hero-background-url-sm: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/768x432/Vapenis_16_9.jpg');
+    $gallery-section-background-url-sm: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/768x432/Svetku_akts_16_9.jpg');
+    $about-section-background-url-sm: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/768x432/Paukosanas_16_9.jpg');
+    $contact-section-background-url-sm: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/768x432/Atklasanas_svetki_16_9.jpg');
+    
+    //@media (min-width: 768px){
+    $hero-background-url-md: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/992x558/Vapenis_16_9.jpg');
+    $gallery-section-background-url-md: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/992x558/Svetku_akts_16_9.jpg');
+    $about-section-background-url-md: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/992x558/Paukosanas_16_9.jpg');
+    $contact-section-background-url-md: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/992x558/Atklasanas_svetki_16_9.jpg');
+    
+    //@media (min-width: 992px){
+    $hero-background-url-lg: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1200x675/Vapenis_16_9.jpg');
+    $gallery-section-background-url-lg: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1200x675/Svetku_akts_16_9.jpg');
+    $about-section-background-url-lg: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1200x675/Paukosanas_16_9.jpg');
+    $contact-section-background-url-lg: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1200x675/Atklasanas_svetki_16_9.jpg');
+    
+    //@media (min-width: 1200px){
+    $hero-background-url-xl: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1400x788/Vapenis_16_9.jpg');
+    $gallery-section-background-url-xl: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1400x788/Svetku_akts_16_9.jpg');
+    $about-section-background-url-xl: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1400x788/Paukosanas_16_9.jpg');
+    $contact-section-background-url-xl: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1400x788/Atklasanas_svetki_16_9.jpg');
+    
+    //@media (min-width: 1400px){
+    $hero-background-url-xxl: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1690x951/Vapenis_16_9.jpg');
+    $gallery-section-background-url-xxl: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1690x951/Svetku_akts_16_9.jpg');
+    $about-section-background-url-xxl: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1690x951/Paukosanas_16_9.jpg');
+    $contact-section-background-url-xxl: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1690x951/Atklasanas_svetki_16_9.jpg');
+    
+    //@media (min-width: 1920px)
+    $hero-background-url-1920px: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/2400x1350/Vapenis_16_9.jpg');
+    $gallery-section-background-url-1920px: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/2400x1350/Svetku_akts_16_9.jpg');
+    $about-section-background-url-1920px: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/2400x1350/Paukosanas_16_9.jpg');
+    $contact-section-background-url-1920px: url('https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/2400x1350/Atklasanas_svetki_16_9.jpg');
+    
+    @mixin main-section($background-url) {
+        background-image: $background-url;
+    }
+    
+    .hero {
+        @media(max-width: 360px) and (orientation:portrait) {
+            @include main-section($hero-background-url-portrait);
+        }
+    
+        @media(max-width: 576px) and (orientation:landscape) {
+            @include main-section($hero-background-url-landscape);
+        }
+    
+        @media (min-width: 360px) and (orientation: portrait) {
+            @include main-section($hero-background-url-360px);
+        }
+    
+        @media (min-width: 420px) and (orientation: portrait) {
+            @include main-section($hero-background-url-420px);
+        }
+    
+        @media (min-width: 576px) and (orientation: portrait) {
+            @include main-section($hero-background-url-576px);
+        }
+    
+        @media (min-width: 576px) and (orientation: landscape) {
+            @include main-section($hero-background-url-sm);
+        }
+    
+        @media (min-width: 768px) {
+            @include main-section($hero-background-url-md);
+        }
+    
+        @media (min-width: 992px) {
+            @include main-section($hero-background-url-lg);
+        }
+    
+        @media (min-width: 1200px) {
+            @include main-section($hero-background-url-xl);
+        }    
+        @media (min-width: 1400px) {
+            @include main-section($hero-background-url-xxl);
+        }
+    
+        @media (min-width: 1920px) {
+            @include main-section($hero-background-url-1920px);
+        }
+    }
+    
+    .gallery-start-section {
+        @media(max-width: 360px) and (orientation:portrait) {
+            @include main-section($gallery-section-background-url-portrait);
+        }
+    
+        @media(max-width: 576px) and (orientation:landscape) {
+            @include main-section($gallery-section-background-url-landscape);
+        }
+    
+        @media (min-width: 360px) and (orientation: portrait) {
+            @include main-section($gallery-section-background-url-360px);
+        }
+    
+        @media (min-width: 420px) and (orientation: portrait) {
+            @include main-section($gallery-section-background-url-420px);
+        }
+    
+        @media (min-width: 576px) and (orientation: portrait) {
+            @include main-section($gallery-section-background-url-576px);
+        }
+    
+        @media (min-width: 576px) and (orientation: landscape) {
+            @include main-section($gallery-section-background-url-sm);
+        }
+    
+        @media (min-width: 768px) {
+            @include main-section($gallery-section-background-url-md);
+        }
+    
+        @media (min-width: 992px) {
+            @include main-section($gallery-section-background-url-lg);
+        }
+    
+        @media (min-width: 1200px) {
+            @include main-section($gallery-section-background-url-xl);
+        }
+        
+        @media (min-width: 1400px) {
+            @include main-section($gallery-section-background-url-xxl);
+        }
+    
+        @media (min-width: 1920px) {
+            @include main-section($gallery-section-background-url-1920px);
+        }
+    }
+    
+    .about-start-section {
+        @media(max-width: 360px) and (orientation:portrait) {
+            @include main-section($about-section-background-url-portrait);
+        }
+    
+        @media(max-width: 576px) and (orientation:landscape) {
+            @include main-section($about-section-background-url-landscape);
+        }
+    
+        @media (min-width: 360px) and (orientation: portrait) {
+            @include main-section($about-section-background-url-360px);
+        }
+    
+        @media (min-width: 420px) and (orientation: portrait) {
+            @include main-section($about-section-background-url-420px);
+        }
+    
+        @media (min-width: 576px) and (orientation: portrait) {
+            @include main-section($about-section-background-url-576px);
+        }
+    
+        @media (min-width: 576px) and (orientation: landscape) {
+            @include main-section($about-section-background-url-sm);
+        }
+    
+        @media (min-width: 768px) {
+            @include main-section($about-section-background-url-md);
+        }
+    
+        @media (min-width: 992px) {
+            @include main-section($about-section-background-url-lg);
+        }
+    
+        @media (min-width: 1200px) {
+            @include main-section($about-section-background-url-xl);
+        }
+            
+        @media (min-width: 1400px) {
+            @include main-section($about-section-background-url-xxl);
+        }
+    
+        @media (min-width: 1920px) {
+            @include main-section($about-section-background-url-1920px);
+        }
+    }
+    
+    .contact-start-section {
+        @media(max-width: 360px) and (orientation:portrait) {
+            @include main-section($contact-section-background-url-portrait);
+        }
+    
+        @media(max-width: 576px) and (orientation:landscape) {
+            @include main-section($contact-section-background-url-landscape);
+        }
+    
+        @media (min-width: 360px) and (orientation: portrait) {
+            @include main-section($contact-section-background-url-360px);
+        }
+    
+        @media (min-width: 420px) and (orientation: portrait) {
+            @include main-section($contact-section-background-url-420px);
+        }
+    
+        @media (min-width: 576px) and (orientation: portrait) {
+            @include main-section($contact-section-background-url-576px);
+        }
+    
+        @media (min-width: 576px) and (orientation: landscape) {
+            @include main-section($contact-section-background-url-sm);
+        }
+    
+        @media (min-width: 768px) {
+            @include main-section($contact-section-background-url-md);
+        }
+    
+        @media (min-width: 992px) {
+            @include main-section($contact-section-background-url-lg);
+        }
+    
+        @media (min-width: 1200px) {
+            @include main-section($contact-section-background-url-xl);
+        }
+     
+        @media (min-width: 1400px) {
+            @include main-section($contact-section-background-url-xxl);
+        }
+    
+        @media (min-width: 1920px) {
+            @include main-section($contact-section-background-url-1920px);
+        }
+    }
+    
